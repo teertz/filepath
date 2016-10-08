@@ -8,6 +8,10 @@ The generated path is like this: `BASE_DIR.'/vrt/ssd/tgh/'`;
 
 ### Basic Usage
 
+To get started with Socialite, add to your `composer.json` file as a dependency:
+
+    composer require laravel/socialite
+
 #### Get the full path
 ```php
 <?php
