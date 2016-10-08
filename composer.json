@@ -1,7 +1,7 @@
 {
     "name": "teertz/filepath",
     "description": "Generating a path for static files",
-    "type": "library",
+    "keywords": ["file", "path", "generate"],
     "license": "MIT",
     "authors": [
         {
