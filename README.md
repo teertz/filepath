@@ -2,9 +2,9 @@
 
 ## Introduction
 
-Teertz Filepath provides a simple way to generate random paths for static files (like user images) to serve them on server.
+Teertz Filepath provides a simple way to generate random paths for serving big amount of static files on the server (like user images)
 
-The generated path is like this: BASE_DIR.'/vrt/ssd/tgh/';
+The generated path is like this: `BASE_DIR.'/vrt/ssd/tgh/'`;
 
 ### Basic Usage
 
@@ -27,7 +27,7 @@ class SomeClass
     }
 }
 ```
-You will get the BASE_DIR + random path like: /var/www/static/images/ddr/ggs/rrt/{filename}
+You will get the `BASE_DIR` + random path like: `/var/www/static/images/ddr/ggs/rrt/{filename}`
 
 #### Get generated path only
 ```php
@@ -48,7 +48,7 @@ class SomeClass
     }
 }
 ```
-You will get the random path like: /fth/asf/bkf/{filename}
+You will get the random path like: `/fth/asf/bkf/{filename}`
 
 ## License
 
