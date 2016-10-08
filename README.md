@@ -20,13 +20,14 @@ class SomeClass
     {
         /* some work before */
         $filepath = new FilepathGenerator('/var/www/static/images/');
+        /* some work after */
         
         return $filepath->getFullPath().$filename;
 
     }
 }
 ```
-You will get the random path like: /var/www/static/images/ddr/ggs/rrt/{filename}
+You will get the BASE_DIR + random path like: /var/www/static/images/ddr/ggs/rrt/{filename}
 
 #### Get generated path only
 ```php
@@ -40,13 +41,14 @@ class SomeClass
     {
         /* some work before */
         $filepath = new FilepathGenerator('/var/www/static/images/');
+        /* some work after */
         
         return $filepath->getGeneratedPath().$filename;
 
     }
 }
 ```
-You will get the random path like: /ddr/ggs/rrt/{filename}
+You will get the random path like: /fth/asf/bkf/{filename}
 
 ## License
 
