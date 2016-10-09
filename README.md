@@ -8,9 +8,9 @@ The generated path is like this: `BASE_DIR.'/vrt/ssd/tgh/'`;
 
 ### Basic Usage
 
-To get started with Socialite, add to your `composer.json` file as a dependency:
+To get started with Teertz Filepath, add to your `composer.json` file as a dependency:
 
-    composer require laravel/socialite
+    composer require teertz/filepath
 
 #### Get the full path
 ```php
