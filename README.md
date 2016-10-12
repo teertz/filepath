@@ -54,6 +54,14 @@ class SomeClass
 ```
 You will get the random path like: `/fth/asf/bkf/{filename}`
 
+### Configuration with Laravel
+
+Add the `Filepath` facade to the `aliases` array in your `app` configuration file:
+
+```php
+'Filepath' => Teertz\Filepath\Generator::class,
+```
+
 ## License
 
 Teertz Filepath is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
